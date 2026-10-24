@@ -185,15 +185,7 @@ Running `EDAPipeline` on the 10-row sample dataset from `Learning_Basic.ipynb` f
 - **Rows with missing values** are dropped for correlation, VIF and PCA calculations.
 - **Very wide datasets** (many columns) produce many plots; use `max_categories` and `max_pairplot_cols` to keep output manageable.
 
----
 
-## Possible improvements
-
-- Automatic data-cleaning suggestions or imputation helpers
-- Export the full report as HTML or PDF with embedded plots
-- Datetime column analysis (trends, seasonality)
-- Mutual information for non-linear relationships
-- Automated tests (`pytest`) and packaging as a pip-installable library
 
 ---
 
